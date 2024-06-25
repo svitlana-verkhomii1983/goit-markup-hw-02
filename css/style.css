@@ -4,7 +4,11 @@ body {
     background-color: #ffffff;
 }
 
-ul {
+.navigation-list,
+.address-list,
+.properties-list,
+.specialists-list,
+.portfolio-list     {
     list-style-type: none;
 }
 
