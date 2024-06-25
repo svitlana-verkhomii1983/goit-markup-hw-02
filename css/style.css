@@ -1,11 +1,10 @@
 body {
-    font-family: "Roboto", "Verdana", "Helvetica Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-ul,
-ol {
+ul {
     list-style-type: none;
 }
 
