@@ -39,9 +39,10 @@ ul {
 
 .address {
     font-style: normal;
+
 }
 
-.address-contact, {
+.address-item, {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
