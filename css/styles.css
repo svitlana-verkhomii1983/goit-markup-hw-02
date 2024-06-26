@@ -8,3 +8,19 @@ ul {
     list-style-type: none;
 }
 
+.navigation-name {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.address-email,
+.address-phone {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+}
