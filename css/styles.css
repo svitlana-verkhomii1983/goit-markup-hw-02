@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -16,19 +16,16 @@ ul {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-.logo-name-one {
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .logo-name-two {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .navigation-name {
     text-decoration: none;
-    color: #2E2F42;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -37,25 +34,25 @@ ul {
 }
 
 .navigation-name:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
-.address-email,
-.address-phone {
+.address {
+    font-style: normal;
+}
+
+.address-contact, {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
 
-.address-email:hover,
-.address-phone:hover,
-.address-email:focus,
-.address-phone:focus {
-    color: #404BBF;
+.address-contact:hover,
+.address-contact:focus {
+    color: #404bbf;
 }
 
 .section-main {
@@ -68,23 +65,25 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
-button {
+.button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     cursor: pointer;
 }
 
-button:hover {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
-    color: #fff;
+    color: #ffffff;
 }
 
 .properties-block-title {
@@ -111,6 +110,7 @@ button:hover {
 }
 
 .specialists-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -119,9 +119,8 @@ button:hover {
     color: #2e2f42;
 }
 
-.specialist-photo,
-.portfolio-photo {
-    background: url("path_to_image");
+.specialist-item {
+    background-color: #ffffff;
 }
 
 .specialist-name {
@@ -142,6 +141,7 @@ button:hover {
 }
 
 .portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -167,6 +167,10 @@ button:hover {
 
 .footer {
     background: #2e2f42;
+}
+
+.footer-logo-name-two {
+    color: #f4f4fd;
 }
 
 .footer-text {
