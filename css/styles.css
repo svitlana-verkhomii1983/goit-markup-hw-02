@@ -70,6 +70,10 @@ button {
     background-color: #4D5AE5;
 }
 
+.button:hover {
+    color: #404BBF;
+}
+
 .properties-block-title {
     display: none;
 }
