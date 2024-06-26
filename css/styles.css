@@ -70,8 +70,9 @@ button {
     background-color: #4D5AE5;
 }
 
-.button:hover {
-    color: #404BBF;
+button:hover {
+    background-color: #404BBF;
+    color: #fff;
 }
 
 .properties-block-title {
