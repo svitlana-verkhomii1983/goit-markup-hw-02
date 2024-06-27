@@ -89,10 +89,6 @@ button:focus {
     color: #ffffff;
 }
 
-.properties-block-title {
-    display: none;
-}
-
 .properties-title {
     font-weight: 500;
     font-size: 20px;
